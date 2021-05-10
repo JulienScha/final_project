@@ -24,3 +24,4 @@
 3. Elastic Load Balancer redirige le flux de données vers une seconde instance Jenkins, de manière transparente pour l'utilisateur
 4. Étapes suivantes identiques au scénario nominal (à partir de l'étape 7)
 plop
+plop
