@@ -8,6 +8,8 @@ phases:
         - sudo apt-get update -y
         - sudo apt-get install python3.4-venv -y
         - python3 -m venv venv
+        - ls venv
+        - ls venv/bin
         - source venv/bin/activate
         - pip install -r requirements.txt
   build:
