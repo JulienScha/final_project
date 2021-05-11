@@ -1,6 +1,6 @@
 mkdir -p /web
 echo "1"
-curl -O https://bootstrap.pypa.io/get-pip.py
+https://bootstrap.pypa.io/pip/2.7/get-pip.py
 echo "2"
 python get-pip.py --user
 echo "3"
