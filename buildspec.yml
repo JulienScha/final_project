@@ -13,7 +13,7 @@ phases:
     commands:
       - echo Build started on `date`
       - echo On va lancer lapp
-      - python app.py
+      - python app_test.py
   post_build:
     commands:
       - echo Build terminé le `date`
