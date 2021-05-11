@@ -1,0 +1,25 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+	- cd ..
+        - python -m venv ../venv
+	- source ../venv/bin/activate
+	- pip install -r requirements.txt
+  build:
+    commands:
+      - echo Build started on `date`
+      - echo On va lancer l'appli
+      - python app.py
+  post_build:
+    commands:
+      - echo Build terminé le `date`
+artifacts:
+  files:
+    - app.py
+    - appspec.yml
+    - handlers/__init__.py
+    - handlers/routes.py
+    - tests/__init__.py
+    - tests/test_routes.py
