@@ -7,6 +7,7 @@ phases:
         - sudo apt-add-repository universe -y
         - sudo apt-get update -y
         - sudo apt-get install python-virtualenv -y
+        - python -m venv venv
         - sudo apt-get install python3-venv -y
         - python3 -m venv venv
         - ls
